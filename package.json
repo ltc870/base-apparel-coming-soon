@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ltc870/base-apparel-coming-soon/issues"
   },
-  "homepage": "https://github.com/ltc870/base-apparel-coming-soon#readme"
+  "homepage": "https://github.com/ltc870/base-apparel-coming-soon#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
 }
