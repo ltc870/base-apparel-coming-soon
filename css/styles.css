@@ -1,0 +1,215 @@
+/*********************
+  GLOBAL STYLES
+********************/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: linear-gradient(135deg, white, #fff5f5);
+  min-height: 100vh; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #ce9797;
+  font-family: "Josefin Sans", sans-serif; }
+
+.attribution a {
+  color: #f96464;
+  text-decoration: none; }
+
+/*********************
+  MOBILE STYLES
+********************/
+.container {
+  width: 100%;
+  max-width: 327px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.logo {
+  padding: 1.2em 0 1em 1.2em;
+  width: 32%;
+  margin-right: 14em; }
+
+.mobile-hero-img {
+  width: 100%;
+  margin-bottom: 3em; }
+
+.desktop-hero-img {
+  display: none; }
+
+.main-section {
+  margin: 0 auto;
+  text-align: center;
+  width: 311px; }
+
+.main-title {
+  font-size: 2.5rem;
+  letter-spacing: .225em;
+  margin-bottom: 0; }
+
+.main-accent1 {
+  color: #ce9797; }
+
+.main-title-accent {
+  font-weight: 300; }
+
+.main-title-accent2 {
+  font-weight: 600; }
+
+.main-text {
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 1.4;
+  padding: 1em;
+  margin-top: 0; }
+
+.form-section {
+  position: relative; }
+
+input {
+  border-radius: 40px;
+  border: 1px solid #ce9797;
+  background-color: #fff5f5;
+  display: block;
+  margin: 0 auto;
+  width: 85%; }
+
+input:hover {
+  cursor: pointer; }
+
+input[placeholder] {
+  font-size: .75rem;
+  padding: 1.25em 1.25em;
+  color: #ce9797; }
+
+.form-btn {
+  background-image: linear-gradient(135deg, #f8bfbf, #f96262);
+  width: 20%;
+  padding: 1em;
+  border-radius: 100px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.form-btn:hover,
+.form-btn:focus {
+  background-image: linear-gradient(135deg, #f8bfbf, #f8bfbf);
+  cursor: pointer; }
+
+.form-error-icon {
+  position: absolute;
+  top: 12px;
+  right: 90px;
+  display: none; }
+
+.form-error-msg {
+  color: #f96464;
+  font-size: .8125rem;
+  font-weight: 400;
+  margin-top: .5em;
+  margin-right: 5em;
+  display: none; }
+
+@media (min-width: 700px) {
+  body {
+    background-image: url("/images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+  .container-grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: repeat(3, auto); }
+
+  .logo {
+    width: 20%;
+    justify-self: left;
+    margin-left: 11.5em;
+    margin-top: 2em; }
+
+  .mobile-hero-img {
+    display: none; }
+
+  .desktop-hero-img {
+    display: initial;
+    grid-row: 1 / 4;
+    grid-column: 2 / 3;
+    height: 100vh;
+    width: 100%; }
+
+  .main-section {
+    grid-row: 2 / 4;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+    justify-self: center;
+    width: 445px; }
+
+  .main-title {
+    font-size: 4rem; }
+
+  .main-text {
+    text-align: left;
+    font-size: 1rem;
+    padding-left: 0;
+    line-height: 1.7;
+    width: 444px; }
+
+  .form-section input {
+    margin-left: 0; }
+
+  .form-btn {
+    padding: 1em;
+    right: 60px; }
+
+  .form-error-msg {
+    margin-left: 2em; }
+
+  .form-error-icon {
+    right: 170px; }
+
+  footer {
+    display: none; }
+
+  .attribution {
+    display: none; }
+
+  .attribution a {
+    display: none; } }
+
+/*# sourceMappingURL=styles.css.map */
