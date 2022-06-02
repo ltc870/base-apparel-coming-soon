@@ -1,0 +1,19 @@
+{
+  "name": "baseapparelcomingsoon",
+  "version": "1.0.0",
+  "description": "frontendmentor project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltc870/base-apparel-coming-soon.git"
+  },
+  "author": "LC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ltc870/base-apparel-coming-soon/issues"
+  },
+  "homepage": "https://github.com/ltc870/base-apparel-coming-soon#readme"
+}
